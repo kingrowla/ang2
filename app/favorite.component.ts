@@ -5,7 +5,7 @@ import {Component, Input, Output, EventEmitter} from 'angular2/core';
     templateUrl:'app/favorite.template.html',
     styles: ['.fa-star{color:orange;} .fa-star-o{color:blue;}']
 })
-
+//comment//
 export class FavoriteComponent{
   @Input('is-favorite') isFavorite: Boolean = false;
   
